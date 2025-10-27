@@ -1,3 +1,1 @@
-# FUELNFREETIME.COM
-
-This is the FUELNFREETIME.COM repository.
+# Fuel & Free Time Website
