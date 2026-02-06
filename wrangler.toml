@@ -1,0 +1,14 @@
+name = "fuelnfreetime"
+compatibility_date = "2025-11-17"
+compatibility_flags = ["nodejs_compat"]
+
+workers_dev = true
+
+# Static assets — serve HTML from repo root
+[assets]
+directory = "."
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+
+[vars]
+ENVIRONMENT = "production"
