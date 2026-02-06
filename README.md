@@ -26,15 +26,14 @@ I've created a **complete, production-ready repository** for fuelnfreetime.com w
 ## 🔌 API Integrations Documented
 
 ### Email Capture
-- **Klaviyo** (recommended for Shopify) - `api/email/klaviyo.md`
+- **resend
   - Client-side and server-side options
   - Double opt-in support
   - Custom properties and tracking
   - Error handling examples
 
 ### SMS Opt-in
-- **Twilio** (powerful, flexible) - `api/sms/twilio.md`
-  - Serverless function examples
+Cloudflare  - Serverless function examples
   - TCPA compliance guidelines
   - Auto-reply keyword handling
   - Database schema for subscribers
@@ -80,11 +79,6 @@ git push -u origin main
 3. Branch: main, folder: / (root)
 4. Save
 
-### Step 3: Use in Shopify
-1. Open `components/footer.html`
-2. Copy the HTML
-3. In Shopify: Themes > Edit Code > New Section
-4. Paste and save
 
 ## ✨ Key Features
 
@@ -101,8 +95,7 @@ git push -u origin main
 - ✅ Glassmorphic design
 
 ### API-Ready
-- ✅ Email capture (Klaviyo, Mailchimp)
-- ✅ SMS opt-in (Twilio, Postscript)
+- ✅ Email capture (resend ) - ✅ SMS opt-in (Twilio, Postscript)
 - ✅ Analytics hooks (GA4, Facebook Pixel)
 - ✅ Form validation
 
@@ -117,7 +110,7 @@ git push -u origin main
 - **Platform**: Shopify (custom HTML)
 - **Hosting**: GitHub Pages (component library)
 - **CI/CD**: GitHub Actions
-- **Email**: Klaviyo (recommended)
+- **Email**: resend (recommended)
 - **SMS**: Twilio
 - **Analytics**: GA4, Facebook Pixel
 
