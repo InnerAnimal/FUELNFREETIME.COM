@@ -69,7 +69,7 @@ cd fuelnfreetime-repo
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/[your-username]/fuelnfreetime-repo.git
+git remote add origin https://inneranimal.github.io/FUELNFREETIME.COM/
 git push -u origin main
 ```
 
