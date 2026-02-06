@@ -4,9 +4,9 @@ compatibility_flags = ["nodejs_compat"]
 
 workers_dev = true
 
-# Static assets — serve HTML from repo root
+# Static assets — public/ only (excludes node_modules)
 [assets]
-directory = "."
+directory = "./public"
 html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
 
